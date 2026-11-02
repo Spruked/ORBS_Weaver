@@ -7,7 +7,7 @@ name = "aims-memory-system"
 version = "0.2.0"
 description = "A.I.M.S. — Agnostic Immutable Memory System"
 requires-python = ">=3.9"
-dependencies = ["fastapi>=0.110", "uvicorn>=0.29", "pydantic>=2.0"]
+dependencies = []
 
 [project.optional-dependencies]
 graphqlite = ["graphqlite>=0.8.0,<0.9.0"]

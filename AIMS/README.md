@@ -61,45 +61,32 @@ Secrets are never serialized into ledgers, Vault records, indexes, retrieval
 receipts, API responses, or logs. Key rotations create immutable events; old
 records continue to validate with their recorded key IDs.
 
-## Local service
+## Embedded memory integration
 
-```powershell
-pip install -r requirements.txt
-$env:MEMORY_STORE_PATH = '.\data'
-python service.py
+A.I.M.S. is a memory library under the canonical `orbs_vault_system` authority.
+It has no standalone HTTP server, service configuration, or required listener.
+The host uses `memory_core` directly and supplies a separate storage directory
+for each customer. Visitor observations and retrieved records do not independently
+establish approved prices, policies, offers, or other business truth.
+
+```python
+from pathlib import Path
+from memory_core import AIMSMemorySystem
+
+# Supplied by the trusted host, inside orbs_vault_system.
+customer_store = Path(vault_root) / "clients" / customer_id / "memory"
+memory = AIMSMemorySystem(customer_store, matrix_id="customer_memory")
 ```
 
-The default binding is `127.0.0.1:8000`; CORS is disabled by default. Remote
-binding requires `AIMS_BIND_HOST` and `AIMS_API_TOKEN` explicitly.
+The trusted host validates customer identity and storage scope before constructing
+the memory instance. Preserve the existing single-writer integration; do not open
+a competing writer for the same customer store.
 
-For authenticated mode, provide the active key ID and a local keyring:
-
-```powershell
-$env:AIMS_SECURITY_MODE = 'authenticated'
-$env:AIMS_GLYPH_KEY_ID = 'local-glyph-2026-01'
-$env:AIMS_GLYPH_KEYS_FILE = 'C:\secure\aims-glyph-keys.json'
-```
-
-The keyring is a local JSON object mapping key IDs to secrets, for example
-`{"local-glyph-2026-01":"runtime-secret"}`. Keep it outside this repository.
-
-## Headless API
-
-The versioned API is presentation-free:
-
-- `GET /api/v1/status`
-- `GET /api/v1/memory/summary`
-- `GET /api/v1/indexes/status`
-- `GET, POST /api/v1/retrievals`
-- `GET /api/v1/retrievals/{id}`
-- `POST /api/v1/retrievals/{id}/feedback`
-- `GET /api/v1/skg/status`
-- `GET /api/v1/skg/activity`
-- `GET /api/v1/vault/integrity`
-
-The portable display hub is intentionally deferred. The current API is a
-prototype surface and does not yet provide production authorization, tenancy,
-access auditing, or resource controls.
+Authenticated ledger mode remains available through the existing library
+parameters `security_mode`, `glyph_key`, `glyph_key_id`, and `glyph_keys`.
+The host supplies key material securely; keys are never stored in ledger records.
+Append-only evidence, integrity verification, temporal provenance, retrieval
+receipts, indexing, reconstruction, and semantic graphs remain library features.
 
 ## Validation
 

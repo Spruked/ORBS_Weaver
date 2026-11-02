@@ -16,8 +16,11 @@ implementation/reference material, not competing authorities for this system.
 Historical component documents describing those copies as sole authority are
 superseded by this workspace decision.
 
-Orbot's default host-memory and token locations and the standalone AIMS service's
-default data location are rooted here. Existing explicit environment overrides
+Orbot's default host-memory and token locations are rooted here. A.I.M.S. is an
+embedded memory subsystem under this Vault's authority, with no standalone HTTP
+server or listener. It preserves evidence and retrieval history; it does not
+independently establish approved business truth. Hosts supply customer-isolated
+storage paths beneath this boundary. Existing explicit environment overrides
 remain supported; deployment configuration must keep authoritative storage within
 this boundary. Existing external data has not been migrated or deleted.
 

@@ -9,6 +9,13 @@ baseline and must not be described as a completed cognitive memory system.
 Every future release must state only capabilities demonstrated by its tests,
 benchmarks, recovery exercises, and documented operating limits.
 
+## ORBS Weaver integration boundary
+
+A.I.M.S. is an embedded memory subsystem under `orbs_vault_system`, not a
+standalone HTTP service. Service authorization and tenant admission requirements
+below belong to the trusted host integration. They do not require restoring an
+A.I.M.S. listener. Preserve isolated customer stores and existing Vault contracts.
+
 ## Release sequence
 
 | Release | Scope | Required evidence |
