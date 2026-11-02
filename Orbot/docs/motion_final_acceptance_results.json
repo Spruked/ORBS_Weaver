@@ -1,0 +1,78 @@
+{
+  "session_digest": "7db5c1d9353c29eb39721c479a6de5d2393c0f8e2b791bfc44095051437918b0",
+  "foundation_sha256": "2a6642e90053134c6733d408344d228712f82a7b006bfa3e9878d94c14801546",
+  "activation_entry_id": "eb2579b1-96f4-4e38-9879-240ebbc2f55c",
+  "instances": {
+    "communication": "d76a4916-db77-4f05-99c0-d1dc7c3f2ba5",
+    "cognition": "b13011b3-af81-43d0-bf40-d1db15047089",
+    "motion": "f04540df-cca3-4509-91d4-fd8482acaa38"
+  },
+  "cycles": [
+    {
+      "docked": true,
+      "docked_stationary": true,
+      "released": true,
+      "moved_when_released": true,
+      "session_preserved": true,
+      "foundation_preserved": true,
+      "instances_preserved": true
+    },
+    {
+      "docked": true,
+      "docked_stationary": true,
+      "released": true,
+      "moved_when_released": true,
+      "session_preserved": true,
+      "foundation_preserved": true,
+      "instances_preserved": true
+    },
+    {
+      "docked": true,
+      "docked_stationary": true,
+      "released": true,
+      "moved_when_released": true,
+      "session_preserved": true,
+      "foundation_preserved": true,
+      "instances_preserved": true
+    }
+  ],
+  "crossing_samples": [
+    {
+      "seconds": 0.02,
+      "position": {
+        "x": 1885,
+        "y": 60
+      },
+      "state": "gliding",
+      "monitor": 1
+    },
+    {
+      "seconds": 0.53,
+      "position": {
+        "x": 1942,
+        "y": 60
+      },
+      "state": "gliding",
+      "monitor": 1
+    }
+  ],
+  "crossed_on_final_build": true,
+  "final": {
+    "application": "orb",
+    "docked": false,
+    "launch_id": "27040-1793220709184485400",
+    "motion_paused": false,
+    "position": {
+      "x": 1951,
+      "y": 60
+    },
+    "renderer_ready": true,
+    "visible": true
+  },
+  "active_session_preserved": true,
+  "microphone": {
+    "voice.client.state": "listening",
+    "voice.client.microphone": true,
+    "voice.client.input_label": "Desktop Microphone (Realtek(R) Audio)"
+  }
+}

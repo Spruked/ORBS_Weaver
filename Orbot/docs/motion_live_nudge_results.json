@@ -1,0 +1,260 @@
+[
+  {
+    "position": {
+      "x": 589,
+      "y": 60
+    },
+    "state": "interaction_hold",
+    "nudge_speed": null,
+    "velocity": null
+  },
+  {
+    "position": {
+      "x": 589,
+      "y": 60
+    },
+    "state": "interaction_hold",
+    "nudge_speed": null,
+    "velocity": null
+  },
+  {
+    "position": {
+      "x": 591,
+      "y": 60
+    },
+    "state": "gliding",
+    "nudge_speed": 12.0,
+    "velocity": {
+      "x": 15.26,
+      "y": 0.0
+    }
+  },
+  {
+    "position": {
+      "x": 598,
+      "y": 60
+    },
+    "state": "gliding",
+    "nudge_speed": 12.0,
+    "velocity": {
+      "x": 43.68,
+      "y": 0.0
+    }
+  },
+  {
+    "position": {
+      "x": 611,
+      "y": 60
+    },
+    "state": "gliding",
+    "nudge_speed": 12.0,
+    "velocity": {
+      "x": 84.15,
+      "y": 0.0
+    }
+  },
+  {
+    "position": {
+      "x": 640,
+      "y": 60
+    },
+    "state": "gliding",
+    "nudge_speed": 12.0,
+    "velocity": {
+      "x": 98.99,
+      "y": 0.0
+    }
+  },
+  {
+    "position": {
+      "x": 663,
+      "y": 60
+    },
+    "state": "gliding",
+    "nudge_speed": 10.15,
+    "velocity": {
+      "x": 108.19,
+      "y": 0.0
+    }
+  },
+  {
+    "position": {
+      "x": 686,
+      "y": 60
+    },
+    "state": "gliding",
+    "nudge_speed": 7.64,
+    "velocity": {
+      "x": 113.08,
+      "y": 0.0
+    }
+  },
+  {
+    "position": {
+      "x": 709,
+      "y": 60
+    },
+    "state": "gliding",
+    "nudge_speed": 5.13,
+    "velocity": {
+      "x": 115.94,
+      "y": 0.0
+    }
+  },
+  {
+    "position": {
+      "x": 733,
+      "y": 60
+    },
+    "state": "gliding",
+    "nudge_speed": 2.4,
+    "velocity": {
+      "x": 117.62,
+      "y": 0.0
+    }
+  },
+  {
+    "position": {
+      "x": 757,
+      "y": 60
+    },
+    "state": "gliding",
+    "nudge_speed": 0.0,
+    "velocity": {
+      "x": 118.96,
+      "y": 0.0
+    }
+  },
+  {
+    "position": {
+      "x": 795,
+      "y": 60
+    },
+    "state": "gliding",
+    "nudge_speed": 0.0,
+    "velocity": {
+      "x": 119.39,
+      "y": 0.0
+    }
+  },
+  {
+    "position": {
+      "x": 821,
+      "y": 60
+    },
+    "state": "gliding",
+    "nudge_speed": 0.0,
+    "velocity": {
+      "x": 119.66,
+      "y": 0.0
+    }
+  },
+  {
+    "position": {
+      "x": 845,
+      "y": 60
+    },
+    "state": "gliding",
+    "nudge_speed": 0.0,
+    "velocity": {
+      "x": 119.8,
+      "y": 0.0
+    }
+  },
+  {
+    "position": {
+      "x": 869,
+      "y": 60
+    },
+    "state": "gliding",
+    "nudge_speed": 0.0,
+    "velocity": {
+      "x": 119.88,
+      "y": 0.0
+    }
+  },
+  {
+    "position": {
+      "x": 894,
+      "y": 60
+    },
+    "state": "gliding",
+    "nudge_speed": 0.0,
+    "velocity": {
+      "x": 119.95,
+      "y": 0.0
+    }
+  },
+  {
+    "position": {
+      "x": 931,
+      "y": 60
+    },
+    "state": "gliding",
+    "nudge_speed": 0.0,
+    "velocity": {
+      "x": 119.97,
+      "y": 0.0
+    }
+  },
+  {
+    "position": {
+      "x": 957,
+      "y": 60
+    },
+    "state": "gliding",
+    "nudge_speed": 0.0,
+    "velocity": {
+      "x": 119.98,
+      "y": 0.0
+    }
+  },
+  {
+    "position": {
+      "x": 982,
+      "y": 60
+    },
+    "state": "gliding",
+    "nudge_speed": 0.0,
+    "velocity": {
+      "x": 119.99,
+      "y": 0.0
+    }
+  },
+  {
+    "position": {
+      "x": 1019,
+      "y": 60
+    },
+    "state": "gliding",
+    "nudge_speed": 0.0,
+    "velocity": {
+      "x": 120.0,
+      "y": 0.0
+    }
+  },
+  {
+    "position": {
+      "x": 1044,
+      "y": 60
+    },
+    "state": "gliding",
+    "nudge_speed": 0.0,
+    "velocity": {
+      "x": 120.0,
+      "y": 0.0
+    }
+  },
+  {
+    "position": {
+      "x": 1068,
+      "y": 60
+    },
+    "state": "gliding",
+    "nudge_speed": 0.0,
+    "velocity": {
+      "x": 120.0,
+      "y": 0.0
+    }
+  }
+]

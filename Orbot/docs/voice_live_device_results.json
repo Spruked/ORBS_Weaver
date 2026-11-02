@@ -1,0 +1,761 @@
+{
+  "session_hash_before": "c57f86e3803c6da96f2b3c05b476f5a08e9cf8395223f7c94970d69d6fc5cb79",
+  "observations": [
+    {
+      "at": 1793210530.8618286,
+      "metrics": {
+        "client.state": "thinking",
+        "client.microphone": false,
+        "client.error_name": "",
+        "client.error_message": "",
+        "client.input_label": "Default - Microphone (Realtek(R) Audio)",
+        "client.capture_id": "c913163e-aaae-4582-94d0-2de9e31340ed",
+        "client.sample_rate": 48000,
+        "client.capture_ms": 2816,
+        "server_stage": "synthesizing",
+        "turn_id": "fb09fbeb-455b-4c4b-acb2-1ad574f0594a",
+        "last_error": "",
+        "recognition_failures": 1,
+        "client.input_rms": 0.028212034597720873,
+        "recognition_ms": 5375,
+        "recognized_inputs": 1,
+        "stt_loaded": true,
+        "language_ms": 843,
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": true,
+        "tts_device": "cpu",
+        "tts_voice": "Ryan"
+      }
+    },
+    {
+      "at": 1793210558.128968,
+      "metrics": {
+        "client.state": "idle",
+        "client.microphone": false,
+        "client.error_name": "",
+        "client.error_message": "",
+        "client.input_label": "Default - Microphone (Realtek(R) Audio)",
+        "client.capture_id": "c913163e-aaae-4582-94d0-2de9e31340ed",
+        "client.sample_rate": 48000,
+        "client.capture_ms": 2816,
+        "server_stage": "cancelling",
+        "turn_id": "fb09fbeb-455b-4c4b-acb2-1ad574f0594a",
+        "last_error": "",
+        "recognition_failures": 1,
+        "client.input_rms": 0.028212034597720873,
+        "recognition_ms": 5375,
+        "recognized_inputs": 1,
+        "stt_loaded": true,
+        "language_ms": 843,
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": true,
+        "tts_device": "cpu",
+        "tts_voice": "Ryan"
+      }
+    },
+    {
+      "at": 1793210791.4468548,
+      "metrics": {
+        "client.state": "idle",
+        "client.microphone": false,
+        "client.error_name": "",
+        "client.error_message": "",
+        "client.input_label": "Default - Microphone (Realtek(R) Audio)",
+        "client.capture_id": "c913163e-aaae-4582-94d0-2de9e31340ed",
+        "client.sample_rate": 48000,
+        "client.capture_ms": 2816,
+        "server_stage": "cancelled",
+        "turn_id": "fb09fbeb-455b-4c4b-acb2-1ad574f0594a",
+        "last_error": "",
+        "recognition_failures": 1,
+        "client.input_rms": 0.028212034597720873,
+        "recognition_ms": 5375,
+        "recognized_inputs": 1,
+        "stt_loaded": true,
+        "language_ms": 843,
+        "cancelled_turns": 1,
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": true,
+        "tts_device": "cpu",
+        "tts_voice": "Ryan"
+      }
+    },
+    {
+      "at": 1793210925.8914955,
+      "metrics": {
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": false,
+        "tts_device": null,
+        "tts_voice": "Ryan",
+        "stt_loaded": false
+      }
+    },
+    {
+      "at": 1793210931.9739313,
+      "metrics": {
+        "client.state": "listening",
+        "client.input_devices": [
+          {
+            "device_id": "default",
+            "label": "Default - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "communications",
+            "label": "Communications - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "41b2bfdb638add81ca868841f01084969e6ab8e27c15de8fe2d7b2425dadc6ae",
+            "label": "Desktop Microphone (Realtek(R) Audio)"
+          }
+        ],
+        "client.microphone": true,
+        "client.error_name": "",
+        "client.error_message": "",
+        "client.input_label": "Desktop Microphone (Realtek(R) Audio)",
+        "client.capture_id": "2dcc1eae-0cd3-4e20-a5f6-8ea09314f3f6",
+        "client.sample_rate": 48000,
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": false,
+        "tts_device": null,
+        "tts_voice": "Ryan",
+        "stt_loaded": false
+      }
+    },
+    {
+      "at": 1793210935.018385,
+      "metrics": {
+        "client.state": "thinking",
+        "client.input_devices": [
+          {
+            "device_id": "default",
+            "label": "Default - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "communications",
+            "label": "Communications - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "41b2bfdb638add81ca868841f01084969e6ab8e27c15de8fe2d7b2425dadc6ae",
+            "label": "Desktop Microphone (Realtek(R) Audio)"
+          }
+        ],
+        "client.microphone": false,
+        "client.error_name": "",
+        "client.error_message": "",
+        "client.input_label": "Desktop Microphone (Realtek(R) Audio)",
+        "client.capture_id": "2dcc1eae-0cd3-4e20-a5f6-8ea09314f3f6",
+        "client.sample_rate": 48000,
+        "client.capture_ms": 1365,
+        "server_stage": "recognizing",
+        "turn_id": "a63aa140-79ff-4edf-8fcf-0d5511e6d958",
+        "last_error": "",
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": false,
+        "tts_device": null,
+        "tts_voice": "Ryan",
+        "stt_loaded": false
+      }
+    },
+    {
+      "at": 1793210938.1052997,
+      "metrics": {
+        "client.state": "listening",
+        "client.input_devices": [
+          {
+            "device_id": "default",
+            "label": "Default - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "communications",
+            "label": "Communications - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "41b2bfdb638add81ca868841f01084969e6ab8e27c15de8fe2d7b2425dadc6ae",
+            "label": "Desktop Microphone (Realtek(R) Audio)"
+          }
+        ],
+        "client.microphone": false,
+        "client.error_name": "",
+        "client.error_message": "",
+        "client.input_label": "Desktop Microphone (Realtek(R) Audio)",
+        "client.capture_id": "5ab7ae41-73bb-42af-8ee6-246c5e29402a",
+        "client.sample_rate": 48000,
+        "client.capture_ms": 1365,
+        "server_stage": "recognizing",
+        "turn_id": "a2c6adbf-e392-470d-8a06-857c519d45f9",
+        "last_error": "",
+        "recognition_failures": 1,
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": false,
+        "tts_device": null,
+        "tts_voice": "Ryan",
+        "stt_loaded": true
+      }
+    },
+    {
+      "at": 1793210944.1862004,
+      "metrics": {
+        "client.state": "idle",
+        "client.input_devices": [
+          {
+            "device_id": "default",
+            "label": "Default - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "communications",
+            "label": "Communications - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "41b2bfdb638add81ca868841f01084969e6ab8e27c15de8fe2d7b2425dadc6ae",
+            "label": "Desktop Microphone (Realtek(R) Audio)"
+          }
+        ],
+        "client.microphone": false,
+        "client.error_name": "VoicePipelineError",
+        "client.error_message": "Error: Speech was unclear; please repeat",
+        "client.input_label": "Desktop Microphone (Realtek(R) Audio)",
+        "client.capture_id": "c507cf28-2f20-49a2-8043-ef031182479c",
+        "client.sample_rate": 48000,
+        "client.capture_ms": 1365,
+        "server_stage": "recognition_rejected",
+        "turn_id": "fedbf784-44f5-49d1-b83d-27ec90a583e0",
+        "last_error": "Speech was unclear; please repeat",
+        "recognition_failures": 4,
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": false,
+        "tts_device": null,
+        "tts_voice": "Ryan",
+        "stt_loaded": true
+      }
+    },
+    {
+      "at": 1793210947.234159,
+      "metrics": {
+        "client.state": "listening",
+        "client.input_devices": [
+          {
+            "device_id": "default",
+            "label": "Default - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "communications",
+            "label": "Communications - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "41b2bfdb638add81ca868841f01084969e6ab8e27c15de8fe2d7b2425dadc6ae",
+            "label": "Desktop Microphone (Realtek(R) Audio)"
+          }
+        ],
+        "client.microphone": true,
+        "client.error_name": "",
+        "client.error_message": "",
+        "client.input_label": "Desktop Microphone (Realtek(R) Audio)",
+        "client.capture_id": "94c73050-c33a-4d21-aca4-af419676e00c",
+        "client.sample_rate": 48000,
+        "client.capture_ms": 1365,
+        "server_stage": "recognition_rejected",
+        "turn_id": "9f628a6a-e12b-43ed-a39e-e80c4a7357f1",
+        "last_error": "Speech was unclear; please repeat",
+        "recognition_failures": 5,
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": false,
+        "tts_device": null,
+        "tts_voice": "Ryan",
+        "stt_loaded": true
+      }
+    },
+    {
+      "at": 1793210959.3986194,
+      "metrics": {
+        "client.state": "thinking",
+        "client.input_devices": [
+          {
+            "device_id": "default",
+            "label": "Default - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "communications",
+            "label": "Communications - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "41b2bfdb638add81ca868841f01084969e6ab8e27c15de8fe2d7b2425dadc6ae",
+            "label": "Desktop Microphone (Realtek(R) Audio)"
+          }
+        ],
+        "client.microphone": false,
+        "client.error_name": "",
+        "client.error_message": "",
+        "client.input_label": "Desktop Microphone (Realtek(R) Audio)",
+        "client.capture_id": "fe26472d-f1f0-4e4b-ace9-50040ee9665c",
+        "client.sample_rate": 48000,
+        "client.capture_ms": 2219,
+        "server_stage": "recognizing",
+        "turn_id": "048eeab6-8f8a-4d79-8e6a-d78a818cd8d2",
+        "last_error": "",
+        "recognition_failures": 8,
+        "client.input_rms": 0.0036261589164743938,
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": false,
+        "tts_device": null,
+        "tts_voice": "Ryan",
+        "stt_loaded": true
+      }
+    },
+    {
+      "at": 1793210971.4807494,
+      "metrics": {
+        "client.state": "idle",
+        "client.input_devices": [
+          {
+            "device_id": "default",
+            "label": "Default - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "communications",
+            "label": "Communications - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "41b2bfdb638add81ca868841f01084969e6ab8e27c15de8fe2d7b2425dadc6ae",
+            "label": "Desktop Microphone (Realtek(R) Audio)"
+          }
+        ],
+        "client.microphone": false,
+        "client.error_name": "VoicePipelineError",
+        "client.error_message": "Error: Speech was unclear; please repeat",
+        "client.input_label": "Desktop Microphone (Realtek(R) Audio)",
+        "client.capture_id": "3590c056-f03f-48ce-9160-84f2ca3d00b2",
+        "client.sample_rate": 48000,
+        "client.capture_ms": 1365,
+        "server_stage": "recognition_rejected",
+        "turn_id": "817c41b6-0a25-4a17-b9b6-050cb22e2fce",
+        "last_error": "Speech was unclear; please repeat",
+        "recognition_failures": 11,
+        "client.input_rms": 0.0036261589164743938,
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": false,
+        "tts_device": null,
+        "tts_voice": "Ryan",
+        "stt_loaded": true
+      }
+    },
+    {
+      "at": 1793210974.4992802,
+      "metrics": {
+        "client.state": "listening",
+        "client.input_devices": [
+          {
+            "device_id": "default",
+            "label": "Default - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "communications",
+            "label": "Communications - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "41b2bfdb638add81ca868841f01084969e6ab8e27c15de8fe2d7b2425dadc6ae",
+            "label": "Desktop Microphone (Realtek(R) Audio)"
+          }
+        ],
+        "client.microphone": true,
+        "client.error_name": "",
+        "client.error_message": "",
+        "client.input_label": "Desktop Microphone (Realtek(R) Audio)",
+        "client.capture_id": "2b488030-2210-472f-9bff-359dc7394a07",
+        "client.sample_rate": 48000,
+        "client.capture_ms": 1365,
+        "server_stage": "recognition_rejected",
+        "turn_id": "47dae924-b927-4ea3-a543-9776f17a0deb",
+        "last_error": "Speech was unclear; please repeat",
+        "recognition_failures": 12,
+        "client.input_rms": 0.0036261589164743938,
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": false,
+        "tts_device": null,
+        "tts_voice": "Ryan",
+        "stt_loaded": true
+      }
+    },
+    {
+      "at": 1793210983.6140544,
+      "metrics": {
+        "client.state": "thinking",
+        "client.input_devices": [
+          {
+            "device_id": "default",
+            "label": "Default - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "communications",
+            "label": "Communications - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "41b2bfdb638add81ca868841f01084969e6ab8e27c15de8fe2d7b2425dadc6ae",
+            "label": "Desktop Microphone (Realtek(R) Audio)"
+          }
+        ],
+        "client.microphone": false,
+        "client.error_name": "",
+        "client.error_message": "",
+        "client.input_label": "Desktop Microphone (Realtek(R) Audio)",
+        "client.capture_id": "a87fd2fa-468a-4f49-8e29-7c3534e8b38d",
+        "client.sample_rate": 48000,
+        "client.capture_ms": 1365,
+        "server_stage": "recognizing",
+        "turn_id": "5e02d136-04d8-40d8-9868-7a55cf05fd9d",
+        "last_error": "",
+        "recognition_failures": 15,
+        "client.input_rms": 0.0036261589164743938,
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": false,
+        "tts_device": null,
+        "tts_voice": "Ryan",
+        "stt_loaded": true
+      }
+    },
+    {
+      "at": 1793210989.702153,
+      "metrics": {
+        "client.state": "opening microphone",
+        "client.input_devices": [
+          {
+            "device_id": "default",
+            "label": "Default - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "communications",
+            "label": "Communications - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "41b2bfdb638add81ca868841f01084969e6ab8e27c15de8fe2d7b2425dadc6ae",
+            "label": "Desktop Microphone (Realtek(R) Audio)"
+          }
+        ],
+        "client.microphone": true,
+        "client.error_name": "",
+        "client.error_message": "",
+        "client.input_label": "Desktop Microphone (Realtek(R) Audio)",
+        "client.capture_id": "09de36ff-4dc1-433b-8bb2-775248e9d4b3",
+        "client.sample_rate": 48000,
+        "client.capture_ms": 1365,
+        "server_stage": "recognition_rejected",
+        "turn_id": "e3f296b0-ad57-44b4-9392-e36182c9f9e2",
+        "last_error": "Speech was unclear; please repeat",
+        "recognition_failures": 18,
+        "client.input_rms": 0.0036261589164743938,
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": false,
+        "tts_device": null,
+        "tts_voice": "Ryan",
+        "stt_loaded": true
+      }
+    },
+    {
+      "at": 1793210992.7713435,
+      "metrics": {
+        "client.state": "listening",
+        "client.input_devices": [
+          {
+            "device_id": "default",
+            "label": "Default - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "communications",
+            "label": "Communications - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "41b2bfdb638add81ca868841f01084969e6ab8e27c15de8fe2d7b2425dadc6ae",
+            "label": "Desktop Microphone (Realtek(R) Audio)"
+          }
+        ],
+        "client.microphone": true,
+        "client.error_name": "",
+        "client.error_message": "",
+        "client.input_label": "Desktop Microphone (Realtek(R) Audio)",
+        "client.capture_id": "618831f3-1740-4a2e-9556-b4dab19aba13",
+        "client.sample_rate": 48000,
+        "client.capture_ms": 1365,
+        "server_stage": "recognition_rejected",
+        "turn_id": "63b297d7-98dc-4962-b0a2-30d39618c90a",
+        "last_error": "Speech was unclear; please repeat",
+        "recognition_failures": 19,
+        "client.input_rms": 0.0036261589164743938,
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": false,
+        "tts_device": null,
+        "tts_voice": "Ryan",
+        "stt_loaded": true
+      }
+    },
+    {
+      "at": 1793210998.8504198,
+      "metrics": {
+        "client.state": "thinking",
+        "client.input_devices": [
+          {
+            "device_id": "default",
+            "label": "Default - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "communications",
+            "label": "Communications - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "41b2bfdb638add81ca868841f01084969e6ab8e27c15de8fe2d7b2425dadc6ae",
+            "label": "Desktop Microphone (Realtek(R) Audio)"
+          }
+        ],
+        "client.microphone": false,
+        "client.error_name": "",
+        "client.error_message": "",
+        "client.input_label": "Desktop Microphone (Realtek(R) Audio)",
+        "client.capture_id": "2783cc8c-88dd-4e61-8965-4a65d64d4085",
+        "client.sample_rate": 48000,
+        "client.capture_ms": 1365,
+        "server_stage": "recognizing",
+        "turn_id": "3ff20ece-8082-4607-9925-474c8c49a3ef",
+        "last_error": "",
+        "recognition_failures": 21,
+        "client.input_rms": 0.0036261589164743938,
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": false,
+        "tts_device": null,
+        "tts_voice": "Ryan",
+        "stt_loaded": true
+      }
+    },
+    {
+      "at": 1793211004.901457,
+      "metrics": {
+        "client.state": "thinking",
+        "client.input_devices": [
+          {
+            "device_id": "default",
+            "label": "Default - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "communications",
+            "label": "Communications - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "41b2bfdb638add81ca868841f01084969e6ab8e27c15de8fe2d7b2425dadc6ae",
+            "label": "Desktop Microphone (Realtek(R) Audio)"
+          }
+        ],
+        "client.microphone": false,
+        "client.error_name": "VoicePipelineError",
+        "client.error_message": "Error: Speech was unclear; please repeat",
+        "client.input_label": "Desktop Microphone (Realtek(R) Audio)",
+        "client.capture_id": "80bc542d-55ed-41af-9d7f-fa22388a8501",
+        "client.sample_rate": 48000,
+        "client.capture_ms": 1365,
+        "server_stage": "recognition_rejected",
+        "turn_id": "fedcb8c3-6e32-4ef6-883a-7022503c9406",
+        "last_error": "Speech was unclear; please repeat",
+        "recognition_failures": 24,
+        "client.input_rms": 0.0036261589164743938,
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": false,
+        "tts_device": null,
+        "tts_voice": "Ryan",
+        "stt_loaded": true
+      }
+    },
+    {
+      "at": 1793211007.9400284,
+      "metrics": {
+        "client.state": "listening",
+        "client.input_devices": [
+          {
+            "device_id": "default",
+            "label": "Default - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "communications",
+            "label": "Communications - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "41b2bfdb638add81ca868841f01084969e6ab8e27c15de8fe2d7b2425dadc6ae",
+            "label": "Desktop Microphone (Realtek(R) Audio)"
+          }
+        ],
+        "client.microphone": true,
+        "client.error_name": "",
+        "client.error_message": "",
+        "client.input_label": "Desktop Microphone (Realtek(R) Audio)",
+        "client.capture_id": "d4042d76-d5d5-48f3-9f5c-435009865b15",
+        "client.sample_rate": 48000,
+        "client.capture_ms": 1365,
+        "server_stage": "recognition_rejected",
+        "turn_id": "189fdd71-b510-486e-a109-0205be4e8b60",
+        "last_error": "Speech was unclear; please repeat",
+        "recognition_failures": 25,
+        "client.input_rms": 0.0036261589164743938,
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": false,
+        "tts_device": null,
+        "tts_voice": "Ryan",
+        "stt_loaded": true
+      }
+    },
+    {
+      "at": 1793211017.0807836,
+      "metrics": {
+        "client.state": "thinking",
+        "client.input_devices": [
+          {
+            "device_id": "default",
+            "label": "Default - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "communications",
+            "label": "Communications - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "41b2bfdb638add81ca868841f01084969e6ab8e27c15de8fe2d7b2425dadc6ae",
+            "label": "Desktop Microphone (Realtek(R) Audio)"
+          }
+        ],
+        "client.microphone": false,
+        "client.error_name": "",
+        "client.error_message": "",
+        "client.input_label": "Desktop Microphone (Realtek(R) Audio)",
+        "client.capture_id": "fb8a4c09-88e0-4f7d-ba55-5c8fb22dfac0",
+        "client.sample_rate": 48000,
+        "client.capture_ms": 1451,
+        "server_stage": "recognizing",
+        "turn_id": "6d5262f8-101e-488f-ba17-b6518e84d2c6",
+        "last_error": "",
+        "recognition_failures": 28,
+        "client.input_rms": 0.0036261589164743938,
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": false,
+        "tts_device": null,
+        "tts_voice": "Ryan",
+        "stt_loaded": true
+      }
+    },
+    {
+      "at": 1793211020.1377783,
+      "metrics": {
+        "client.state": "listening",
+        "client.input_devices": [
+          {
+            "device_id": "default",
+            "label": "Default - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "communications",
+            "label": "Communications - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "41b2bfdb638add81ca868841f01084969e6ab8e27c15de8fe2d7b2425dadc6ae",
+            "label": "Desktop Microphone (Realtek(R) Audio)"
+          }
+        ],
+        "client.microphone": false,
+        "client.error_name": "",
+        "client.error_message": "",
+        "client.input_label": "Desktop Microphone (Realtek(R) Audio)",
+        "client.capture_id": "60feaa79-bcbe-4c94-bab7-d2d19c6d4ed5",
+        "client.sample_rate": 48000,
+        "client.capture_ms": 1451,
+        "server_stage": "recognition_rejected",
+        "turn_id": "6d5262f8-101e-488f-ba17-b6518e84d2c6",
+        "last_error": "Speech was unclear; please repeat",
+        "recognition_failures": 29,
+        "client.input_rms": 0.0036261589164743938,
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": false,
+        "tts_device": null,
+        "tts_voice": "Ryan",
+        "stt_loaded": true
+      }
+    },
+    {
+      "at": 1793211059.005644,
+      "metrics": {
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": false,
+        "tts_device": null,
+        "tts_voice": "Ryan",
+        "stt_loaded": false
+      }
+    },
+    {
+      "at": 1793211065.101753,
+      "metrics": {
+        "client.state": "listening",
+        "client.input_devices": [
+          {
+            "device_id": "default",
+            "label": "Default - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "communications",
+            "label": "Communications - Desktop Microphone (Realtek(R) Audio)"
+          },
+          {
+            "device_id": "41b2bfdb638add81ca868841f01084969e6ab8e27c15de8fe2d7b2425dadc6ae",
+            "label": "Desktop Microphone (Realtek(R) Audio)"
+          }
+        ],
+        "client.microphone": true,
+        "client.error_name": "",
+        "client.error_message": "",
+        "client.input_label": "Desktop Microphone (Realtek(R) Audio)",
+        "client.capture_id": "006f2cb5-b653-438b-b84d-18c89dfbef40",
+        "client.sample_rate": 48000,
+        "tts_provider": "qwen",
+        "tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+        "tts_loaded": false,
+        "tts_device": null,
+        "tts_voice": "Ryan",
+        "stt_loaded": false
+      }
+    }
+  ],
+  "last_turn": {
+    "available": true,
+    "turn_id": "fb09fbeb-455b-4c4b-acb2-1ad574f0594a",
+    "hearing": {
+      "text": {
+        "redacted": true,
+        "characters": 13,
+        "sha256": "7e3b7512fd327b6df76cf416e31e3572f10493e635b644b83ccbb39446536a03"
+      },
+      "original_transcript": {
+        "redacted": true,
+        "characters": 14,
+        "sha256": "dc2e97690ab260dd1c1a50ca27694038e78b874fdf0d451aec670fdc2863b383"
+      },
+      "verified": false,
+      "processor": "tpc_cochlear_v3"
+    },
+    "response_text": null,
+    "foundation_sha256": null,
+    "verification": "session_observations_not_verified_relationship_facts",
+    "execution_authority": false
+  },
+  "session_hash_after": "4d481f42948c2ffb2204805205ae9c5e030495db818261aa4287652563814831"
+}

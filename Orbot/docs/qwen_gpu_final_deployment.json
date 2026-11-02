@@ -1,0 +1,27 @@
+{
+  "ready": true,
+  "presentation": {
+    "application": "orb",
+    "docked": true,
+    "launch_id": "28336-1793219730830106400",
+    "renderer_ready": true,
+    "visible": false
+  },
+  "voice": {
+    "voice.client.state": "thinking",
+    "voice.client.microphone": true,
+    "voice.client.input_label": "Desktop Microphone (Realtek(R) Audio)",
+    "voice.tts_device": "cuda:0",
+    "voice.tts_precision": "bfloat16",
+    "voice.tts_execution_mode": "cuda_weight_offload",
+    "voice.tts_gpu_peak_mib": 632.4,
+    "voice.tts_observed_execution_devices": [
+      "cuda:0"
+    ]
+  },
+  "foundation": {
+    "version": "1.3",
+    "sha256": "2a6642e90053134c6733d408344d228712f82a7b006bfa3e9878d94c14801546"
+  },
+  "selected_input": "Desktop Microphone (Realtek(R) Audio)"
+}

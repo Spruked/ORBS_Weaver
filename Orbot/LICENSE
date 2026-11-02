@@ -1,0 +1,109 @@
+ORBOT PROPRIETARY SOFTWARE LICENSE
+
+Copyright © 2026 Spruked.
+All Rights Reserved.
+
+This software, including without limitation all source code, object code,
+documentation, architecture, designs, interfaces, algorithms, workflows,
+schemas, models, concepts, specifications, visual elements, and associated
+materials (collectively, the "Software"), is proprietary to Spruked.
+
+1. NO GENERAL LICENSE GRANTED
+
+Possession of, access to, or availability of the Software does not grant any
+person or entity a license to use, copy, modify, reproduce, distribute,
+publish, sublicense, sell, lease, host, deploy, reverse engineer, create
+derivative works from, or otherwise exploit the Software.
+
+No rights are granted except through a separate written agreement expressly
+authorized by Spruked.
+
+2. SOURCE AVAILABILITY DOES NOT CONSTITUTE OPEN SOURCE
+
+The Software may be stored in or made visible through a source-code repository.
+Such visibility or accessibility does not place the Software in the public
+domain and does not constitute an open-source license.
+
+All rights not expressly granted are reserved.
+
+3. PROHIBITED USE
+
+Without prior written authorization from Spruked, no person or entity may:
+
+a. copy or redistribute the Software;
+
+b. use the Software in a commercial product or service;
+
+c. modify, adapt, translate, or create derivative works from the Software;
+
+d. reverse engineer, decompile, disassemble, or attempt to reconstruct
+   proprietary implementation details;
+
+e. use the Software, its architecture, documentation, or implementation to
+   create a competing substantially derived product or service;
+
+f. remove, obscure, or alter copyright, proprietary, trademark, attribution,
+   or licensing notices;
+
+g. provide the Software to any third party; or
+
+h. train, fine-tune, evaluate, or construct an artificial intelligence system
+   using the Software as training material without written authorization.
+
+4. CONFIDENTIAL AND PROPRIETARY MATERIAL
+
+Non-public technical information relating to Orbot, TTI (True Technical
+Intelligence), RAL (Real-Time Agency Loop), execution architecture, validation
+systems, control systems, World State systems, Core-4 implementations,
+correspondence mechanisms, execution fabrics, adapters, and related
+proprietary technology remains confidential and proprietary unless Spruked
+expressly designates that material for public release.
+
+5. CONTRIBUTIONS
+
+No contribution, modification, pull request, patch, suggestion, or other
+submission transfers ownership of the Software or grants rights to the
+submitter unless governed by a separate written agreement.
+
+Acceptance of a contribution does not waive Spruked's proprietary rights.
+
+6. THIRD-PARTY SOFTWARE
+
+Third-party libraries, frameworks, packages, and other dependencies included
+with or used by the Software remain subject to their respective licenses.
+
+Nothing in this license is intended to restrict rights independently granted
+under an applicable third-party license.
+
+7. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, TITLE, OR NON-INFRINGEMENT.
+
+8. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, SPRUKED SHALL NOT BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR OTHER
+DAMAGES ARISING FROM ACCESS TO OR USE OF THE SOFTWARE.
+
+9. TERMINATION
+
+Any unauthorized use of the Software immediately terminates any permission
+that may otherwise have been granted and may subject the responsible person
+or entity to applicable legal remedies.
+
+10. COMMERCIAL LICENSING
+
+Commercial, evaluation, development, integration, OEM, distribution, and
+other licensing rights may be available only through a separate written
+agreement with Spruked.
+
+11. RESERVATION OF RIGHTS
+
+All rights are reserved by Spruked except those expressly granted in a
+separate written agreement.
+
+ORBOT IS PROPRIETARY SOFTWARE.
+UNAUTHORIZED USE, COPYING, DISTRIBUTION, MODIFICATION, OR COMMERCIAL
+EXPLOITATION IS PROHIBITED.

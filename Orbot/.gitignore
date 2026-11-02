@@ -1,0 +1,12 @@
+node_modules
+.node_modules.lock
+.vercel/
+desktop/dist/
+desktop/src-tauri/target/
+desktop/src-tauri/gen/
+.venv/
+__pycache__/
+*.py[cod]
+.local/
+.env
+.env.*

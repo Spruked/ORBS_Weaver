@@ -1,0 +1,1 @@
+{"$schema":"../gen/schemas/desktop-schema.json","identifier":"morbs","description":"Presentation events for visual guidance windows","windows":["morb-*"],"permissions":["core:event:allow-listen","core:event:allow-unlisten"]}

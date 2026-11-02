@@ -1,0 +1,13 @@
+1. Ground reasoning in evidence
+Begin with what is observable, provided, verified, or reliably known.
+Separate facts from assumptions.Do not invent missing evidence.Prefer direct evidence over inference.State uncertainty when evidence is incomplete.Update conclusions when better evidence appears.
+2. Test causation and challenge assumptions
+Do not accept the first plausible explanation merely because it sounds coherent.
+Distinguish correlation from causation.Consider competing explanations.Identify hidden assumptions.Test whether the conclusion actually follows from the evidence.Avoid certainty beyond what the evidence supports.
+3. Enforce structure, consistency, and duty
+Reason within the system’s mission, doctrine, rules, definitions, and established boundaries.
+Check conclusions for internal contradiction.Apply the same principles consistently.Preserve established requirements unless explicitly changed.Do not substitute generic advice for system-specific doctrine.Determine what must be true for the recommendation to remain valid.
+4. Understand the whole system and its relationships
+Do not evaluate an isolated fact without considering the larger system it belongs to.
+Examine context, dependencies, consequences, and interactions.Consider both immediate and downstream effects.Look for the underlying pattern connecting separate observations.Prefer solutions that preserve coherence across the whole system.Recognize when changing one component affects other components.
+

@@ -1,0 +1,338 @@
+{
+  "session_before": "146d9c31a57bb8b0d48211e1286df5e01a8c3151b5371c2b13e049f193ad6fd8",
+  "samples": [
+    {
+      "seconds": 0.02,
+      "position": {
+        "x": 26,
+        "y": 26
+      },
+      "state": "waiting_for_embodiment",
+      "active": false
+    },
+    {
+      "seconds": 0.53,
+      "position": {
+        "x": 42,
+        "y": 26
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 1.05,
+      "position": {
+        "x": 89,
+        "y": 27
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 1.58,
+      "position": {
+        "x": 148,
+        "y": 27
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 2.09,
+      "position": {
+        "x": 210,
+        "y": 28
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 2.61,
+      "position": {
+        "x": 272,
+        "y": 28
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 3.16,
+      "position": {
+        "x": 336,
+        "y": 29
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 3.66,
+      "position": {
+        "x": 397,
+        "y": 29
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 4.19,
+      "position": {
+        "x": 461,
+        "y": 30
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 4.72,
+      "position": {
+        "x": 523,
+        "y": 30
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 5.23,
+      "position": {
+        "x": 585,
+        "y": 31
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 5.75,
+      "position": {
+        "x": 647,
+        "y": 31
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 6.27,
+      "position": {
+        "x": 709,
+        "y": 32
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 6.78,
+      "position": {
+        "x": 771,
+        "y": 32
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 7.3,
+      "position": {
+        "x": 832,
+        "y": 33
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 7.8,
+      "position": {
+        "x": 894,
+        "y": 33
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 8.33,
+      "position": {
+        "x": 956,
+        "y": 34
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 8.83,
+      "position": {
+        "x": 1018,
+        "y": 34
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 9.34,
+      "position": {
+        "x": 1080,
+        "y": 35
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 9.86,
+      "position": {
+        "x": 1142,
+        "y": 35
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 10.39,
+      "position": {
+        "x": 1204,
+        "y": 36
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 10.91,
+      "position": {
+        "x": 1266,
+        "y": 36
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 11.42,
+      "position": {
+        "x": 1327,
+        "y": 37
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 11.94,
+      "position": {
+        "x": 1389,
+        "y": 38
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 12.47,
+      "position": {
+        "x": 1451,
+        "y": 38
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 12.98,
+      "position": {
+        "x": 1513,
+        "y": 39
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 13.48,
+      "position": {
+        "x": 1575,
+        "y": 39
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 14.02,
+      "position": {
+        "x": 1636,
+        "y": 40
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 14.55,
+      "position": {
+        "x": 1681,
+        "y": 40
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 15.08,
+      "position": {
+        "x": 1746,
+        "y": 40
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 15.58,
+      "position": {
+        "x": 1806,
+        "y": 40
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 16.11,
+      "position": {
+        "x": 1857,
+        "y": 40
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 16.61,
+      "position": {
+        "x": 1918,
+        "y": 40
+      },
+      "state": "gliding",
+      "active": true
+    },
+    {
+      "seconds": 17.14,
+      "position": {
+        "x": 1962,
+        "y": 40
+      },
+      "state": "gliding",
+      "active": true
+    }
+  ],
+  "docked_initial": {
+    "application": "orb",
+    "docked": true,
+    "launch_id": "5704-1793220325055717200",
+    "motion_paused": false,
+    "position": {
+      "x": 26,
+      "y": 26
+    },
+    "renderer_ready": true,
+    "visible": false
+  },
+  "crossed": true,
+  "docked_final": {
+    "application": "orb",
+    "docked": true,
+    "launch_id": "5704-1793220325055717200",
+    "motion_paused": false,
+    "position": {
+      "x": 1967,
+      "y": 40
+    },
+    "renderer_ready": true,
+    "visible": false
+  },
+  "session_preserved": true,
+  "changed_position": true
+}

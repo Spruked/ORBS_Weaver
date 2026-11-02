@@ -1,0 +1,321 @@
+C:/Users/bryan/Desktop/Orbot/Orbot/
+|-- desktop/
+|   |-- README.md
+|   |-- package.json
+|   |-- package-lock.json
+|   |-- index.html
+|   |-- tsconfig.json
+|   |-- vite.config.ts
+|   |-- src/
+|   |   |-- main.tsx
+|   |   |-- voice.ts
+|   |   |-- Conversation.tsx
+|   |   |-- vite-env.d.ts
+|   |   |-- assets/
+|   |   |   |-- orbot.png
+|   |   |-- styles.css
+|   |-- src-tauri/
+|   |   |-- Cargo.toml
+|   |   |-- Cargo.lock
+|   |   |-- build.rs
+|   |   |-- tauri.conf.json
+|   |   |-- capabilities/
+|   |   |   |-- desktop.json
+|   |   |-- src/
+|   |   |   |-- main.rs
+|   |   |   |-- desktop_host.rs
+|   |   |   |-- orbot.png
+|-- structure_tree.txt
+|-- AGENTS.md
+|-- README.md
+|-- LICENSE
+|-- .gitignore
+|-- package.json
+|-- tsconfig.json
+|-- vite.config.ts
+|-- eslint.config.mjs
+|-- startup.sh
+|-- src/
+|   |-- router.tsx
+|   |-- routeTree.gen.ts
+|   |-- styles.css
+|   |-- routes/
+|   |   |-- __root.tsx
+|   |   |-- index.tsx
+|   |   |-- runtime.tsx
+|   |   |-- memory.tsx
+|   |   |-- governance.tsx
+|   |   |-- telemetry.tsx
+|   |   |-- api/
+|   |   |   |-- auth/$.ts
+|   |   |   |-- runtime.ts
+|   |   |   |-- events.ts
+|   |   |   |-- intents.ts
+|   |   |   |-- cancellations.ts
+|   |-- components/
+|   |   |-- runtime-status.tsx
+|   |   |-- world-state-view.tsx
+|   |   |-- authority-controls.tsx
+|   |   |-- execution-timeline.tsx
+|   |   |-- memory-view.tsx
+|   |-- lib/
+|   |   |-- auth/
+|   |   |-- db.ts
+|   |   |-- error-component.tsx
+|   |   |-- runtime/
+|   |-- README.md
+|   |-- supervisor.py
+|   |-- motion/
+|   |   |-- ral_ros_bridge/
+|   |   |   |-- nats/
+|   |   |   |   |-- accounts.conf
+|   |   |   |-- ral_ros_bridge/
+|   |   |   |   |-- __init__.py
+|   |   |   |   |-- demo.py
+|   |   |   |   |-- mapping.py
+|   |   |   |   |-- messages.py
+|   |   |   |   |-- node.py
+|   |   |   |-- schemas/
+|   |   |   |   |-- command_envelope.json
+|   |   |   |   |-- envelope.json
+|   |   |   |-- tests/
+|   |   |   |   |-- test_contract.py
+|   |   |   |-- README.md
+|   |   |   |-- SPEC.md
+|   |   |   |-- mapping.yaml
+|   |   |   |-- rates.yaml
+|   |   |   |-- subjects.yaml
+|   |   |-- __init__.py
+|   |   |-- main.py
+|   |   |-- service.py
+|   |-- cognition_governance/
+|   |   |-- ral_core/
+|   |   |   |-- ral_core/
+|   |   |   |   |-- __init__.py
+|   |   |   |   |-- admission.py
+|   |   |   |   |-- core4.py
+|   |   |   |   |-- demo.py
+|   |   |   |   |-- event_bus.py
+|   |   |   |   |-- middleware.py
+|   |   |   |   |-- models.py
+|   |   |   |   |-- telemetry.py
+|   |   |   |-- tests/
+|   |   |   |   |-- test_authority_path.py
+|   |   |   |-- README.md
+|   |   |-- __init__.py
+|   |   |-- main.py
+|   |   |-- service.py
+|   |-- communication/
+|   |   |-- tests/
+|   |   |   |-- test_knowledge.py
+|   |   |   |-- test_memory.py
+|   |   |   |-- test_priority.py
+|   |   |   |-- test_provider_memory.py
+|   |   |   |-- test_service.py
+|   |   |-- README.md
+|   |   |-- __init__.py
+|   |   |-- main.py
+|   |   |-- memory.py
+|   |   |-- cochlear.py
+|   |   |-- providers.py
+|   |   |-- requirements.txt
+|   |   |-- service.py
+|   |-- shared/
+|   |   |-- __init__.py
+|   |   |-- health.py
+|   |-- tests/
+|   |   |-- test_boundaries.py
+|-- config/
+|   |-- runtime.yaml
+|   |-- wiring.yaml
+|   |-- capabilities.yaml
+|   |-- motion.yaml
+|   |-- cognition_governance.yaml
+|   |-- communication.yaml
+|-- docs/
+|   |-- architecture.md
+|   |-- wiring_plan.md
+|   |-- desktop_docking_and_memory.md
+|   |-- memory_priority.md
+|   |-- source_of_truth.md
+|   |-- runtime_boundaries.md
+|   |-- migration_plan.md
+|   |-- authority_path.md
+|   |-- correspondence_cycle.md
+|   |-- provider_adapters.md
+|-- tests/
+|   |-- contracts/
+|   |   |-- test_schema_compatibility.py
+|   |   |-- test_permit_binding.py
+|   |-- integration/
+|   |   |-- test_three_runtime_wiring.py
+|   |   |-- test_single_source_of_truth.py
+|   |   |-- test_authority_path.py
+|   |   |-- test_expiry_and_revocation.py
+|   |   |-- test_dependency_and_cancellation.py
+|   |   |-- test_disconnect_and_replay.py
+|   |   |-- test_correspondence_commit.py
+|   |   |-- test_emergency_stop.py
+|-- scripts/
+|   |-- setup-communication.ps1
+|   |-- generate_contract_bindings.py
+|   |-- validate_wiring.py
+|   |-- start_runtimes.py
+|   |-- migrate.mjs
+|   |-- migration-plan.mjs
+|   |-- app-env-plugin.mjs
+|   |-- browser-smoke.mjs
+|-- migrations/
+|   |-- auth/
+|   |   |-- 0001_auth.sql
+|-- public/
+|   |-- favicon.svg
+|-- screenshots/
+|   |-- .gitkeep
+|-- Orbot_Vault-Logic-System/
+|   |-- README.md
+|   |-- .gitignore
+|   |-- contracts/
+|   |   |-- world_state.schema.json
+|   |   |-- observation.schema.json
+|   |   |-- intent.schema.json
+|   |   |-- action_proposal.schema.json
+|   |   |-- execution_primitive.schema.json
+|   |   |-- execution_dependency.schema.json
+|   |   |-- core4_evaluation.schema.json
+|   |   |-- authority.schema.json
+|   |   |-- execution_permit.schema.json
+|   |   |-- cancellation.schema.json
+|   |   |-- execution_receipt.schema.json
+|   |   |-- correspondence_result.schema.json
+|   |   |-- event_envelope.schema.json
+|   |   |-- capability.schema.json
+|   |-- policy/
+|   |   |-- doctrine.md
+|   |   |-- doctrine.sha256
+|   |   |-- authority.yaml
+|   |   |-- admission.yaml
+|   |   |-- destructive_actions.yaml
+|   |   |-- safety.yaml
+|   |-- authority/
+|   |   |-- service.py
+|   |   |-- grants.py
+|   |   |-- permit_registry.py
+|   |   |-- permit_binding.py
+|   |   |-- revocation.py
+|   |-- world_state/
+|   |   |-- service.py
+|   |   |-- observations.py
+|   |   |-- reducer.py
+|   |   |-- verified_commit.py
+|   |   |-- snapshots.py
+|   |   |-- freshness.py
+|   |-- AIMS/
+|   |   |-- service.py
+|   |   |-- README.md
+|   |   |-- HARDENING_CONTRACT.md
+|   |   |-- memory_core/
+|   |   |   |-- memory_layer.py
+|   |   |   |-- host_sessions.py
+|   |   |   |-- host_knowledge.py
+|   |   |   |-- host_priority.py
+|   |   |   |-- short_term.py
+|   |   |   |-- long_term.py
+|   |   |   |-- vault.py
+|   |   |   |-- indexes.py
+|   |   |   |-- retrieval_ledger.py
+|   |   |   |-- glyph_trace.py
+|   |   |   |-- temporal.py
+|   |   |   |-- writer_lock.py
+|   |   |   |-- skg/
+|   |   |   |   |-- backend.py
+|   |   |   |   |-- domain.py
+|   |   |   |   |-- trio.py
+|   |   |   |   |-- types.py
+|   |   |-- tests/
+|   |-- engine/
+|   |   |-- evaluator.py
+|   |   |-- resolver.js
+|   |   |-- signal_map.json
+|   |   |-- integration_hooks/
+|   |-- vaults/
+|   |   |-- _template/
+|   |   |   |-- vault.json
+|   |   |   |-- logic.md
+|   |   |   |-- rules/condition.js
+|   |-- glyphs/
+|   |   |-- glyph_map.json
+|   |   |-- trace_engine.js
+|   |-- memory/
+|   |   |-- consolidation.py
+|   |   |-- matrix_store.yaml
+|   |   |-- domains/
+|   |-- telemetry/
+|   |   |-- collector.py
+|   |   |-- telemetry.yaml
+|   |   |-- alerts.yaml
+|   |   |-- dashboard/
+|   |-- config/
+|   |   |-- vault_config.yaml
+|   |   |-- telemetry.yaml
+|   |   |-- environments/
+|   |-- interfaces/
+|   |   |-- api/openapi.yaml
+|   |   |-- cli/commands.md
+|   |-- docs/
+|   |-- examples/
+|   |-- scripts/
+|   |-- tests/
+|-- Triple_Predicate_Cubed/
+|   |-- README.md
+|   |-- ARCHITECTURE_REGISTRY.md
+|   |-- Integration.py
+|   |-- tpc_cubed.py
+|   |-- acp_synthesis.py
+|   |-- adapters/
+|   |   |-- vault_memory.py
+|   |   |-- governance_context.py
+|   |   |-- proposal_output.py
+|   |-- philosophers/
+|   |   |-- base.py
+|   |   |-- seed_kant.json
+|   |   |-- seed_locke.json
+|   |   |-- seed_hume.json
+|   |   |-- seed_spinoza.json
+|   |-- drift/
+|   |   |-- ping.py
+|   |-- cochlear_processor_3.0/
+|   |   |-- cochlear_processor_v3.py
+|   |   |-- perceptual_filter.py
+|   |   |-- correction_loop.py
+|   |   |-- adaptive_plasticity.py
+|   |   |-- skg_learning_bridge.py
+|   |-- tests/
+|-- Correspondence_Engine_skg_v1/
+|   |-- README.md
+|   |-- LICENSE
+|   |-- adapters/
+|   |   |-- vault_memory.py
+|   |   |-- observation_evidence.py
+|   |   |-- correspondence_output.py
+|   |-- correspondence_engine/
+|   |   |-- skg/
+|   |   |   |-- aui_engine.py
+|   |   |   |-- evidence.py
+|   |   |   |-- claims.py
+|   |   |   |-- atoms.py
+|   |   |   |-- vectors.py
+|   |   |   |-- geometry.py
+|   |   |   |-- sublimator.py
+|   |   |   |-- correspondence_substrate.py
+|   |   |   |-- beams.py
+|   |   |   |-- fifth_mind.py
+|   |   |   |-- tribunal.py
+|   |   |   |-- challenge.py
+|   |   |   |-- escalation.py
+|   |   |-- Epistemic_Gravity_Field/
+|   |   |   |-- adapter.py
+|   |   |   |-- space_field.py
+|   |-- divergence_rkg/
+|   |   |-- divergence_rkg.py
+|   |-- tests/

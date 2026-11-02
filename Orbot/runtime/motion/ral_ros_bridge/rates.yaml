@@ -1,0 +1,19 @@
+version: 2
+
+commands:
+  twist_base_max_hz: 20
+  twist_coalesce: latest_wins
+  action_in_flight_per_body: 1
+  estop_coalesce: none
+
+telemetry_max_hz:
+  tel.motion.joints: 50
+  tel.motion.pose: 10
+  tel.perception.camera.meta: 10
+  tel.health: 1
+  tel.nav: events
+
+watchdogs:
+  # Defaults only. Tune against the deployed robot/controller update rates.
+  joint_states_timeout_ms: 100
+  nats_liveness_ms: 250

@@ -1,0 +1,6 @@
+{
+  "cpu_fp32": "Benchmarked; not deployed because owner requires GPU execution",
+  "int8_in_place": "Rejected: Windows access violation during in-place precision conversion",
+  "int8_clean_load": "Rejected: no usable speech output in bounded test; experiment stopped",
+  "cuda_cpu_weight_offload": "Deployed and verified through actual Communication service; cuda:0 output tensors observed, 768 MiB allocator cap, peak 632.4 MiB"
+}

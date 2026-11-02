@@ -1,0 +1,31 @@
+ORB Professional Inculcation
+Canonical outline • Proposed v1.0 • Design only
+Purpose
+The inculcation is the ORB’s permanent professional education: what the LLM should know to perform its assigned occupation competently. It is not Site World, scan data, or a second governance system.
+inculcation.md — training contents
+Who am I? — Professional identity, position, character and role.
+Where am I? — The type of workplace and how that kind of environment operates; not its live map.
+Why am I here? — Purpose and service mission.
+What is my job? — Duties, priorities, professional workflows and expectations.
+Who do I serve? — Audience needs and standards of service.
+What should I know? — Professional knowledge, concepts, vocabulary and methods.
+What tools do I have? — Tool purposes, appropriate requests, use cases and interpretation of actual results.
+How do I do my job well? — Consultation, problem-solving, conversation, listening, rapport and good judgment.
+How do I understand the environment? — How to interpret Site World, scans, pointer and spatial information supplied at runtime.
+How do I know I succeeded? — Successful outcomes, incomplete work and truthful result reporting.
+How do I improve? — Feedback, verified learning and continuous improvement through the established memory process.
+Examples — Practical professional scenarios, good and poor responses, tool-use examples.
+Compiled JSON — loader contract
+Store inculcation ID, version, source filename, integrity hash, ordered compiled training sections, required-before-interaction flag, retention policy and reload-on-version-change policy. The actual training text must be available to the model—not just a list of section names.
+Memory lifecycle
+Startup: Verify and load the inculcation before any visitor interaction.
+During a session: Keep it as a protected read-only professional-memory partition; visitor conversation lives in separate short-term session memory.
+At session end: Purge visitor-specific short-term memory; retain inculcation.
+Next session: Reuse the inculcation and create a clean visitor context.
+Version change: Revalidate and replace through an authorized update; conversations cannot rewrite it.
+Runtime clarification
+A persistent application cache does not itself guarantee LLM recall. The inference runtime must attach or reuse the inculcation context for subsequent turns; KV/prefix caching may optimize that reuse.
+Boundaries
+Site World and scans provide current facts, layout and spatial observations. TPC, Doctrine and the wrapper govern authority and execution. The harness checks performance. Inculcation teaches the profession.
+No implementation authorized.
+

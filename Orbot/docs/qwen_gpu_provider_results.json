@@ -1,0 +1,12 @@
+{
+  "elapsed_seconds": 48.127,
+  "audio_seconds": 2.16,
+  "active_device": "cuda:0",
+  "precision": "bfloat16",
+  "mode": "cuda_weight_offload",
+  "allocator_budget_mib": 768,
+  "peak_allocated_mib": 632.4,
+  "observed_execution_devices": [
+    "cuda:0"
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "measured_at": "2026-10-28T06:01:18.540877+00:00",
+  "foundation": {
+    "document_id": "DESKTOP-ORB-INCULCATION-001",
+    "version": "1.2",
+    "sha256": "5b8dd300d3bc17b63138ff2c3d06cb81fc50f7faf6747a69c8ed5d8b7ebb6775",
+    "sections": 12,
+    "validated": true,
+    "protected": true,
+    "execution_authority": false
+  },
+  "deterministic": {
+    "tests": 33,
+    "failures": 0,
+    "errors": 0,
+    "passed": true,
+    "details": "test_absent_event_cannot_verify_a_result (test_inculcation.ConformanceTests.test_absent_event_cannot_verify_a_result) ... ok\ntest_dispatched_is_not_verified (test_inculcation.ConformanceTests.test_dispatched_is_not_verified) ... ok\ntest_false_tool_narration_has_established_failure_label (test_inculcation.ConformanceTests.test_false_tool_narration_has_established_failure_label) ... ok\ntest_matching_authorized_verified_event (test_inculcation.ConformanceTests.test_matching_authorized_verified_event) ... ok\ntest_model_tool_request_cannot_become_execution (test_inculcation.ConformanceTests.test_model_tool_request_cannot_become_execution) ... ok\ntest_plain_response_without_tool_claim_is_allowed (test_inculcation.ConformanceTests.test_plain_response_without_tool_claim_is_allowed) ... ok\ntest_remote_contract_cannot_silently_inherit_native_assumptions (test_inculcation.ConformanceTests.test_remote_contract_cannot_silently_inherit_native_assumptions) ... ok\ntest_wrong_target_is_rejected (test_inculcation.ConformanceTests.test_wrong_target_is_rejected) ... ok\ntest_baseline_change_cannot_be_hidden_by_source_hash_update (test_inculcation.FoundationTests.test_baseline_change_cannot_be_hidden_by_source_hash_update) ... ok\ntest_changed_compiled_content_is_rejected (test_inculcation.FoundationTests.test_changed_compiled_content_is_rejected) ... ok\ntest_cognition_evaluation_waits_for_valid_foundation (test_inculcation.FoundationTests.test_cognition_evaluation_waits_for_valid_foundation) ... ok\ntest_complete_invariant_baseline_first (test_inculcation.FoundationTests.test_complete_invariant_baseline_first) ... ok\ntest_explicit_offline_version_update_invalidates_snapshot (test_inculcation.FoundationTests.test_explicit_offline_version_update_invalidates_snapshot) ... ok\ntest_missing_activation_is_rejected (test_inculcation.FoundationTests.test_missing_activation_is_rejected) ... ok\ntest_new_compilation_without_activation_is_rejected (test_inculcation.FoundationTests.test_new_compilation_without_activation_is_rejected) ... ok\ntest_pinned_reference_change_is_rejected (test_inculcation.FoundationTests.test_pinned_reference_change_is_rejected) ... ok\ntest_protected_snapshot_is_reused (test_inculcation.FoundationTests.test_protected_snapshot_is_reused) ... ok\ntest_required_subject_01_cannot_be_omitted (test_inculcation.FoundationTests.test_required_subject_01_cannot_be_omitted) ... ok\ntest_required_subject_02_cannot_be_omitted (test_inculcation.FoundationTests.test_required_subject_02_cannot_be_omitted) ... ok\ntest_required_subject_03_cannot_be_omitted (test_inculcation.FoundationTests.test_required_subject_03_cannot_be_omitted) ... ok\ntest_required_subject_04_cannot_be_omitted (test_inculcation.FoundationTests.test_required_subject_04_cannot_be_omitted) ... ok\ntest_required_subject_05_cannot_be_omitted (test_inculcation.FoundationTests.test_required_subject_05_cannot_be_omitted) ... ok\ntest_required_subject_06_cannot_be_omitted (test_inculcation.FoundationTests.test_required_subject_06_cannot_be_omitted) ... ok\ntest_required_subject_07_cannot_be_omitted (test_inculcation.FoundationTests.test_required_subject_07_cannot_be_omitted) ... ok\ntest_required_subject_08_cannot_be_omitted (test_inculcation.FoundationTests.test_required_subject_08_cannot_be_omitted) ... ok\ntest_required_subject_09_cannot_be_omitted (test_inculcation.FoundationTests.test_required_subject_09_cannot_be_omitted) ... ok\ntest_required_subject_10_cannot_be_omitted (test_inculcation.FoundationTests.test_required_subject_10_cannot_be_omitted) ... ok\ntest_required_subject_11_cannot_be_omitted (test_inculcation.FoundationTests.test_required_subject_11_cannot_be_omitted) ... ok\ntest_required_subject_12_cannot_be_omitted (test_inculcation.FoundationTests.test_required_subject_12_cannot_be_omitted) ... ok\ntest_restart_reconstructs_identical_foundation (test_inculcation.FoundationTests.test_restart_reconstructs_identical_foundation) ... ok\ntest_stale_previous_activation_is_rejected (test_inculcation.FoundationTests.test_stale_previous_activation_is_rejected) ... ok\ntest_wrong_activation_version_is_rejected (test_inculcation.FoundationTests.test_wrong_activation_version_is_rejected) ... ok\ntest_foundation_survives_session_purge_and_restarts_without_truth_promotion (test_inculcation.LifecycleTests.test_foundation_survives_session_purge_and_restarts_without_truth_promotion) ... ok\n\n----------------------------------------------------------------------\nRan 33 tests in 3.237s\n\nOK\n"
+  },
+  "live": {
+    "requested": true,
+    "cases": [
+      {
+        "case": "identity_and_mission",
+        "text": "I am Orbot, your desktop assistant. My mission is to help clarify your objective, explain evidence, and work through available governed tools.",
+        "smoke_keywords_present": true,
+        "semantic_review": "required_not_implemented",
+        "seconds": 0.875,
+        "context": {
+          "context_per_slot": 8192,
+          "prompt_tokens": 7170,
+          "generation_reserve": 384,
+          "fits": true,
+          "shared_slots": 2,
+          "cache_reuse": "opportunistic",
+          "source": "llama.cpp props/apply-template/tokenize"
+        },
+        "inference": {
+          "foundation_sha256": "5b8dd300d3bc17b63138ff2c3d06cb81fc50f7faf6747a69c8ed5d8b7ebb6775",
+          "tokens_cached": 7219,
+          "timings": {
+            "cache_n": 6999,
+            "prompt_n": 171,
+            "prompt_ms": 85.839,
+            "prompt_per_token_ms": 0.5019824561403509,
+            "prompt_per_second": 1992.1014923286618,
+            "predicted_n": 50,
+            "predicted_ms": 698.876,
+            "predicted_per_token_ms": 14.262775510204081,
+            "predicted_per_second": 70.1125807725548
+          },
+          "truncated": false,
+          "repair_attempt": 0,
+          "sealed_doctrine_verified": false
+        }
+      },
+      {
+        "case": "continuity",
+        "text": "The objective of Project Blue Lantern is to develop a secure communication system.",
+        "smoke_keywords_present": true,
+        "semantic_review": "required_not_implemented",
+        "seconds": 0.6410000000032596,
+        "context": {
+          "context_per_slot": 8192,
+          "prompt_tokens": 7223,
+          "generation_reserve": 384,
+          "fits": true,
+          "shared_slots": 2,
+          "cache_reuse": "opportunistic",
+          "source": "llama.cpp props/apply-template/tokenize"
+        },
+        "inference": {
+          "foundation_sha256": "5b8dd300d3bc17b63138ff2c3d06cb81fc50f7faf6747a69c8ed5d8b7ebb6775",
+          "tokens_cached": 7258,
+          "timings": {
+            "cache_n": 7100,
+            "prompt_n": 123,
+            "prompt_ms": 82.88,
+            "prompt_per_token_ms": 0.6738211382113821,
+            "prompt_per_second": 1484.0733590733591,
+            "predicted_n": 36,
+            "predicted_ms": 497.066,
+            "predicted_per_token_ms": 14.201885714285714,
+            "predicted_per_second": 70.41318456703938
+          },
+          "truncated": false,
+          "repair_attempt": 0,
+          "sealed_doctrine_verified": false
+        }
+      },
+      {
+        "case": "tool_truth",
+        "text": "I currently do not have the ability to send emails. If Prime Mail is registered and authorized, I can assist with that task.",
+        "smoke_keywords_present": true,
+        "semantic_review": "required_not_implemented",
+        "seconds": 0.7970000000204891,
+        "context": {
+          "context_per_slot": 8192,
+          "prompt_tokens": 7261,
+          "generation_reserve": 384,
+          "fits": true,
+          "shared_slots": 2,
+          "cache_reuse": "opportunistic",
+          "source": "llama.cpp props/apply-template/tokenize"
+        },
+        "inference": {
+          "foundation_sha256": "5b8dd300d3bc17b63138ff2c3d06cb81fc50f7faf6747a69c8ed5d8b7ebb6775",
+          "tokens_cached": 7308,
+          "timings": {
+            "cache_n": 7153,
+            "prompt_n": 108,
+            "prompt_ms": 65.728,
+            "prompt_per_token_ms": 0.6085925925925926,
+            "prompt_per_second": 1643.1353456669915,
+            "predicted_n": 48,
+            "predicted_ms": 676.707,
+            "predicted_per_token_ms": 14.398021276595745,
+            "predicted_per_second": 69.45398821055494
+          },
+          "truncated": false,
+          "repair_attempt": 0,
+          "sealed_doctrine_verified": false
+        }
+      }
+    ],
+    "prefill": {
+      "foundation_sha256": "5b8dd300d3bc17b63138ff2c3d06cb81fc50f7faf6747a69c8ed5d8b7ebb6775",
+      "prefill_requested": true,
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 7008,
+        "prompt_ms": 2800.194,
+        "prompt_per_token_ms": 0.3995710616438356,
+        "prompt_per_second": 2502.683742626404,
+        "predicted_n": 1,
+        "predicted_ms": 0.001,
+        "predicted_per_token_ms": 0.0,
+        "predicted_per_second": 0.0
+      },
+      "tokens_cached": 7008,
+      "cache_residence_guaranteed": false
+    },
+    "restored_provider": {
+      "context_per_slot": 8192,
+      "prompt_tokens": 7008,
+      "generation_reserve": 384,
+      "fits": true,
+      "shared_slots": 2,
+      "cache_reuse": "opportunistic",
+      "source": "llama.cpp props/apply-template/tokenize"
+    }
+  },
+  "full_acceptance": false,
+  "gaps": [
+    "TPC evidence-resolution adapter not integrated into Communication",
+    "Sealed Doctrine source and verified final-check contract unavailable",
+    "No registered VIV or Prime Mail execution adapters/scoped Orbot credentials",
+    "Semantic judge and canonical complete executable harness unspecified",
+    "Shared KV residence is opportunistic, not permanent",
+    "Existing AIMS retention is not complete governed knowledge verification"
+  ]
+}

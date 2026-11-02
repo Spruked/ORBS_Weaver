@@ -1,0 +1,33 @@
+version: 2
+pattern: "ral.{robot_id}.{kind}.{...}"
+
+subjects:
+  proposal:          "ral.{robot_id}.cycle.{cycle_id}.proposal"
+  verdict:           "ral.{robot_id}.cycle.{cycle_id}.verdict"
+  admission_request: "ral.{robot_id}.cycle.{cycle_id}.admission.request"
+  admission_result:  "ral.{robot_id}.cycle.{cycle_id}.admission.result"
+  permit:            "ral.{robot_id}.cycle.{cycle_id}.permit"
+  cmd_motion:        "ral.{robot_id}.cmd.motion.{body}"
+  cmd_tool:          "ral.{robot_id}.cmd.tool.{tool_id}"
+  cmd_speech:        "ral.{robot_id}.cmd.speech"
+  cmd_estop:         "ral.{robot_id}.cmd.estop"
+  tel_execution:     "ral.{robot_id}.tel.execution"
+  tel_motion:        "ral.{robot_id}.tel.motion.{body}"
+  tel_tool:          "ral.{robot_id}.tel.tool"
+  tel_nav:           "ral.{robot_id}.tel.nav"
+  tel_health:        "ral.{robot_id}.tel.health"
+  tel_perception:    "ral.{robot_id}.tel.perception.{stream}"
+  ws_changed:        "ral.{robot_id}.ws.changed"
+
+kv:
+  bucket: "WS"
+  key: "{robot_id}"
+
+jetstream:
+  cycles_stream: "RAL_CYCLES"
+  subjects:
+    - "ral.*.cycle.>"
+    - "ral.*.tel.execution"
+    - "ral.*.cmd.tool.>"
+    - "ral.*.cmd.estop"
+  note: "Do not persist twist samples, raw sensor streams, or joint telemetry on this stream."

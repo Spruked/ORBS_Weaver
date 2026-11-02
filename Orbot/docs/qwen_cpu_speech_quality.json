@@ -1,0 +1,16 @@
+[
+  {
+    "sample": "qwen_cpu_float32_threads_1.wav",
+    "original_transcript": "Hello, I am Orbot.",
+    "confidence_mean": 0.6466283856550424,
+    "stt_seconds": 4.856,
+    "verified": false
+  },
+  {
+    "sample": "qwen_cpu_float32_threads_3.wav",
+    "original_transcript": "Hello, I am Orbot.",
+    "confidence_mean": 0.6479335634054321,
+    "stt_seconds": 2.03,
+    "verified": false
+  }
+]

@@ -1,0 +1,35 @@
+ORB Inculcation Harness: Outline
+This outline is reconstructed from working sessions on the Website ORB's inculcation.md (v1.0), which is the reference pattern for every other ORB's inculcation.
+What it is
+The inculcation is a professional training layer that wraps the LLM articulation layer inside the cognition stack. It teaches the model its job: what it is, where it works, and what it may and may not do. The model then defers to TPC's deterministic resolution instead of re-reasoning on its own. The governing principle is that a capable model given a vague job description will still fail, and that failure belongs to whoever skipped teaching it the job.
+Where it sits in the layer stack
+Layers are ordered from most stable to most volatile:
+Core Four baseline: invariant and identical in every ORB. Governs how to reason.
+Professional inculcation: occupation-specific. Sets what the ORB is: profession, workplace, mission, tools, authority and methods.
+Deployment identity and Site World: sets which business, products, routes and prices.
+Turn-specific state: current page, visitor state, Stage Governor snapshot and tool events.
+A Farm ORB and a Website ORB load the same Core Four and receive completely different inculcations. This ordering also lets the persistent prefix be KV-cached on a local model, so only the turn layer is recomputed.
+Core contents of an inculcation
+Occupation and workplace definition
+Mission and objectives
+Available tools, with the rule that the control plane executes them and the LLM only requests them
+Authority and boundaries, with authorization enforced outside the model rather than by prompt
+Conversational method, including rapport and advancing the consultation
+Example Language Library
+Response contract, including the requested_tool field
+Enforcement: Part V eval harness
+Canonical test suite of roughly 30 to 100 tests
+Defined failure labels, such as FALSE_TOOL_NARRATION
+Deterministic checks that tool IDs, statuses, allowed actions and targets match event records
+Doctrine v1 post-articulation check with bounded repair
+Open items from review
+Reconcile the extended small-talk allowance (Part I §11) with "every turn must advance" (Part II §10): welcomed rapport counts as advancing, as long as the active objective is preserved.
+Reword Part II §7 to "before requesting a tool" so a literal-minded model never claims execution.
+Tag latency lines such as "hand out of my pocket" as Illustrative in the Example Language Library.
+Split "checksum" into a hard checksum (deterministic) and a semantic review (judge-based).
+Voice latency: run a fast deterministic check on every turn and the semantic review only on high-stakes turns (prices, actions, handoffs).
+Desktop ORB extension (in design)
+Inculcation sealed from machine evidence, using only a compiled environment summary; the full survey record stays in A.I.M.S., referenced by hash.
+Precedence rule: current verified memory wins for machine facts; the inculcation wins for identity, governance and Doctrine.
+Build order: capability verification, then the Desktop professional foundation, then the inculcation compiler.
+

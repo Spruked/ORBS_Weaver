@@ -1,0 +1,39 @@
+{
+  "tested_at": "2026-10-28T17:54:06.694696+00:00",
+  "fixture": "Hello Orbot. Reply briefly.",
+  "microphone": "not tested by this service probe",
+  "playback": "not tested by this service probe",
+  "fixture_synthesis": {
+    "provider": "qwen",
+    "elapsed_ms": 233313,
+    "rate": 24000,
+    "channels": 1,
+    "seconds": 2.56,
+    "sha256": "a31750f968a9e69839f8e7136e523c51389a07bfd05949703e5dd7400fc4c965"
+  },
+  "error": "HTTP Error 503: Service Unavailable",
+  "error_detail": "{\"detail\":{\"reason\":\"Complete professional context does not fit; no education was truncated\",\"context\":{\"context_per_slot\":8192,\"prompt_tokens\":9969,\"foundation_sha256\":\"2a6642e90053134c6733d408344d228712f82a7b006bfa3e9878d94c14801546\",\"generation_reserve\":384,\"fits\":false,\"shared_slots\":2,\"cache_reuse\":\"opportunistic\",\"source\":\"llama.cpp props/apply-template/tokenize\"}}}",
+  "embodiment_session_preserved": true,
+  "voice_metrics": {
+    "voice.server_stage": "language_failed",
+    "voice.client.state": "listening",
+    "voice.client.microphone": true,
+    "voice.client.error_name": "",
+    "voice.client.error_message": "",
+    "voice.client.input_label": "Default - Microphone (Realtek(R) Audio)",
+    "voice.client.sample_rate": 48000,
+    "voice.client.capture_ms": 1365,
+    "voice.client.input_rms": 0.004121312487066591,
+    "voice.tts_generation_ms": 233313,
+    "voice.turn_id": "configured-services-probe",
+    "voice.last_error": "Language inference unavailable. Check model connection and context capacity.",
+    "voice.recognition_ms": 5329,
+    "voice.recognized_inputs": 1,
+    "voice.stt_loaded": true,
+    "voice.tts_provider": "qwen",
+    "voice.tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+    "voice.tts_loaded": true,
+    "voice.tts_device": "cpu",
+    "voice.tts_voice": "Ryan"
+  }
+}

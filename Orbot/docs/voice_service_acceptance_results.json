@@ -1,0 +1,91 @@
+{
+  "tested_at": "2026-10-28T20:36:01.704615+00:00",
+  "fixture": "Hello Orbot. Reply briefly.",
+  "microphone": "not tested by this service probe",
+  "playback": "not tested by this service probe",
+  "fixture_synthesis": {
+    "provider": "qwen",
+    "elapsed_ms": 53984,
+    "rate": 24000,
+    "channels": 1,
+    "seconds": 2.32,
+    "sha256": "a78a4452aef8ca1a6fab628301199315f02f4c177d151ffa010aa4863617a920"
+  },
+  "elapsed_ms": 30266,
+  "hearing": {
+    "text": "Hello or both reply briefly.",
+    "original_transcript": "Hello or bot, reply briefly.",
+    "processor": "tpc_cochlear_v3",
+    "verified": false
+  },
+  "response_text": "Hello!",
+  "response_audio": {
+    "rate": 24000,
+    "channels": 1,
+    "seconds": 1.2,
+    "sha256": "fb59965e43e7fb997f8f61956fb6855874c15292d0075b044160ad998facfb6b"
+  },
+  "foundation": {
+    "document_id": "DESKTOP-ORB-INCULCATION-001",
+    "version": "1.3",
+    "sha256": "2a6642e90053134c6733d408344d228712f82a7b006bfa3e9878d94c14801546",
+    "sections": 12,
+    "validated": true,
+    "protected": true,
+    "execution_authority": false
+  },
+  "fully_governed": false,
+  "execution_authority": false,
+  "same_conversation_session": true,
+  "service_round_trip_passed": true,
+  "embodiment_session_preserved": true,
+  "voice_metrics": {
+    "voice.client.state": "listening",
+    "voice.client.input_devices": [
+      {
+        "device_id": "default",
+        "label": "Default - Desktop Microphone (Realtek(R) Audio)"
+      },
+      {
+        "device_id": "communications",
+        "label": "Communications - Desktop Microphone (Realtek(R) Audio)"
+      },
+      {
+        "device_id": "41b2bfdb638add81ca868841f01084969e6ab8e27c15de8fe2d7b2425dadc6ae",
+        "label": "Desktop Microphone (Realtek(R) Audio)"
+      }
+    ],
+    "voice.client.microphone": false,
+    "voice.client.error_name": "VoicePipelineError",
+    "voice.client.error_message": "Error: Speech was unclear; please repeat",
+    "voice.client.input_label": "Desktop Microphone (Realtek(R) Audio)",
+    "voice.client.capture_id": "d7050597-6455-4258-bc55-9591a528a87a",
+    "voice.client.sample_rate": 48000,
+    "voice.client.capture_ms": 1877,
+    "voice.server_stage": "audio_generated_waiting_for_client_playback",
+    "voice.turn_id": "configured-services-probe",
+    "voice.last_error": "",
+    "voice.client.input_rms": 0.0637212060803794,
+    "voice.recognition_failures": 1,
+    "voice.tts_generation_ms": 23969,
+    "voice.recognition_ms": 4438,
+    "voice.recognized_inputs": 1,
+    "voice.stt_loaded": true,
+    "voice.language_ms": 1765,
+    "voice.completed_round_trips": 1,
+    "voice.tts_provider": "qwen",
+    "voice.tts_model": "C:\\Users\\bryan\\Desktop\\Desktop_System\\Orbot\\Orbot\\.local\\models\\Qwen3-TTS-1.7B-CustomVoice",
+    "voice.tts_loaded": true,
+    "voice.tts_device": "cuda:0",
+    "voice.tts_precision": "bfloat16",
+    "voice.tts_cpu_threads": null,
+    "voice.tts_execution_mode": "cuda_weight_offload",
+    "voice.tts_gpu_budget_mib": 768,
+    "voice.tts_gpu_peak_mib": 632.4,
+    "voice.tts_observed_execution_devices": [
+      "cuda:0"
+    ],
+    "voice.tts_model_load_ms": 1563,
+    "voice.tts_voice": "Ryan"
+  }
+}

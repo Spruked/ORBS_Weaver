@@ -1,0 +1,239 @@
+{
+  "samples": [
+    {
+      "seconds": 0.02,
+      "position": {
+        "x": 982,
+        "y": 30
+      },
+      "state": "gliding",
+      "velocity": {
+        "x": 119.99,
+        "y": 1.75
+      },
+      "nudge_speed": 0.0
+    },
+    {
+      "seconds": 0.55,
+      "position": {
+        "x": 1043,
+        "y": 31
+      },
+      "state": "gliding",
+      "velocity": {
+        "x": 119.99,
+        "y": 1.76
+      },
+      "nudge_speed": 0.0
+    },
+    {
+      "seconds": 1.08,
+      "position": {
+        "x": 1105,
+        "y": 32
+      },
+      "state": "gliding",
+      "velocity": {
+        "x": 119.99,
+        "y": 1.76
+      },
+      "nudge_speed": 0.0
+    },
+    {
+      "seconds": 1.58,
+      "position": {
+        "x": 1167,
+        "y": 32
+      },
+      "state": "gliding",
+      "velocity": {
+        "x": 119.99,
+        "y": 1.76
+      },
+      "nudge_speed": 0.0
+    },
+    {
+      "seconds": 2.09,
+      "position": {
+        "x": 1229,
+        "y": 33
+      },
+      "state": "gliding",
+      "velocity": {
+        "x": 119.99,
+        "y": 1.76
+      },
+      "nudge_speed": 0.0
+    },
+    {
+      "seconds": 2.64,
+      "position": {
+        "x": 1304,
+        "y": 35
+      },
+      "state": "gliding",
+      "velocity": {
+        "x": 119.99,
+        "y": 1.76
+      },
+      "nudge_speed": 0.0
+    },
+    {
+      "seconds": 3.17,
+      "position": {
+        "x": 1366,
+        "y": 35
+      },
+      "state": "gliding",
+      "velocity": {
+        "x": 119.99,
+        "y": 1.76
+      },
+      "nudge_speed": 0.0
+    },
+    {
+      "seconds": 3.69,
+      "position": {
+        "x": 1428,
+        "y": 36
+      },
+      "state": "gliding",
+      "velocity": {
+        "x": 119.99,
+        "y": 1.76
+      },
+      "nudge_speed": 0.0
+    },
+    {
+      "seconds": 4.19,
+      "position": {
+        "x": 1490,
+        "y": 37
+      },
+      "state": "gliding",
+      "velocity": {
+        "x": 119.99,
+        "y": 1.76
+      },
+      "nudge_speed": 0.0
+    },
+    {
+      "seconds": 4.69,
+      "position": {
+        "x": 1540,
+        "y": 38
+      },
+      "state": "gliding",
+      "velocity": {
+        "x": 119.99,
+        "y": 1.76
+      },
+      "nudge_speed": 0.0
+    },
+    {
+      "seconds": 5.22,
+      "position": {
+        "x": 1602,
+        "y": 39
+      },
+      "state": "gliding",
+      "velocity": {
+        "x": 119.99,
+        "y": 1.76
+      },
+      "nudge_speed": 0.0
+    },
+    {
+      "seconds": 5.73,
+      "position": {
+        "x": 1659,
+        "y": 40
+      },
+      "state": "gliding",
+      "velocity": {
+        "x": 80.89,
+        "y": 1.18
+      },
+      "nudge_speed": 0.0
+    },
+    {
+      "seconds": 6.23,
+      "position": {
+        "x": 1702,
+        "y": 40
+      },
+      "state": "gliding",
+      "velocity": {
+        "x": 96.62,
+        "y": 0.43
+      },
+      "nudge_speed": 0.0
+    },
+    {
+      "seconds": 6.73,
+      "position": {
+        "x": 1758,
+        "y": 40
+      },
+      "state": "gliding",
+      "velocity": {
+        "x": 113.97,
+        "y": 0.05
+      },
+      "nudge_speed": 0.0
+    },
+    {
+      "seconds": 7.25,
+      "position": {
+        "x": 1818,
+        "y": 40
+      },
+      "state": "gliding",
+      "velocity": {
+        "x": 118.45,
+        "y": -0.08
+      },
+      "nudge_speed": 0.0
+    },
+    {
+      "seconds": 7.75,
+      "position": {
+        "x": 1881,
+        "y": 40
+      },
+      "state": "gliding",
+      "velocity": {
+        "x": 119.62,
+        "y": -0.13
+      },
+      "nudge_speed": 0.0
+    },
+    {
+      "seconds": 8.28,
+      "position": {
+        "x": 1939,
+        "y": 40
+      },
+      "state": "gliding",
+      "velocity": {
+        "x": 98.37,
+        "y": -0.12
+      },
+      "nudge_speed": 0.0
+    }
+  ],
+  "crossed": true,
+  "session_digest": "17d400526fb360d6746bd183ff9107ac4919f63a59f0b312a5020073f975a9da",
+  "docked_stationary": true,
+  "released": true,
+  "session_preserved": true,
+  "health": {
+    "runtime": "motion",
+    "ready": true,
+    "mode": "presentation_only",
+    "presentation_motion_available": true,
+    "command_execution_enabled": false,
+    "execution_authority": false,
+    "hardware_connected": false
+  }
+}

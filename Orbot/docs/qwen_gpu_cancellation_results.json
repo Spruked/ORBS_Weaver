@@ -1,0 +1,25 @@
+{
+  "cancel": {
+    "cancel_requested": true,
+    "session_preserved": true,
+    "execution_authority": false
+  },
+  "response": {
+    "status": 409,
+    "detail": "{\"detail\":\"Voice turn cancelled; session preserved\"}"
+  },
+  "cancellation_seconds": 0.171,
+  "active_session_preserved": true,
+  "passed": true,
+  "session_close": {
+    "closed": true,
+    "short_term_cleared": true,
+    "close_review": {
+      "saved": 0,
+      "pruned": 1,
+      "duplicates": 0,
+      "expired": false,
+      "retained_high": 0
+    }
+  }
+}

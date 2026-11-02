@@ -1,0 +1,111 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RAL_Envelope_v2",
+  "type": "object",
+  "required": [
+    "event_id",
+    "robot_id",
+    "cycle_id",
+    "schema",
+    "payload"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "robot_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "task_id": {
+      "type": "string"
+    },
+    "cycle_id": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "integer"
+        }
+      ]
+    },
+    "proposal_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "primitive_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "execution_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "permit_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "permit_expires_at": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "schema": {
+      "type": "string",
+      "minLength": 1
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "estop",
+        "safety",
+        "user_interrupt",
+        "task_critical",
+        "normal",
+        "ambient"
+      ]
+    },
+    "robot_time": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "sec",
+        "nsec"
+      ],
+      "properties": {
+        "sec": {
+          "type": "integer"
+        },
+        "nsec": {
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    },
+    "world_etag": {
+      "type": [
+        "string",
+        "integer",
+        "null"
+      ]
+    },
+    "payload": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

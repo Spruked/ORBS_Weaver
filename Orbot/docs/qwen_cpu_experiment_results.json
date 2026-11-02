@@ -1,0 +1,43 @@
+{
+  "mode": "float32_threads",
+  "threads": 4,
+  "model": "Qwen3-TTS-1.7B-CustomVoice",
+  "voice": "Ryan",
+  "cpu": "AVX2",
+  "samples": [
+    {
+      "threads": 1,
+      "text": "Hello. I am Orbot.",
+      "elapsed_seconds": 25.873,
+      "audio_seconds": 2.08,
+      "rate": 24000,
+      "rtf": 12.44
+    },
+    {
+      "threads": 2,
+      "text": "Hello. I am Orbot.",
+      "elapsed_seconds": 18.111,
+      "audio_seconds": 2.08,
+      "rate": 24000,
+      "rtf": 8.71
+    },
+    {
+      "threads": 4,
+      "text": "Hello. I am Orbot.",
+      "elapsed_seconds": 18.962,
+      "audio_seconds": 2.08,
+      "rate": 24000,
+      "rtf": 9.12
+    },
+    {
+      "threads": 6,
+      "text": "Hello. I am Orbot.",
+      "elapsed_seconds": 17.391,
+      "audio_seconds": 2.08,
+      "rate": 24000,
+      "rtf": 8.36
+    }
+  ],
+  "load_seconds": 5.856,
+  "convert_seconds": 0.262
+}

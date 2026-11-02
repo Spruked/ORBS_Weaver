@@ -1,0 +1,260 @@
+{
+  "samples": [
+    {
+      "seconds": 0.0,
+      "position": {
+        "x": 1192,
+        "y": 26
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 1790,
+        "y": 205
+      }
+    },
+    {
+      "seconds": 0.53,
+      "position": {
+        "x": 1254,
+        "y": 28
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 1790,
+        "y": 205
+      }
+    },
+    {
+      "seconds": 1.06,
+      "position": {
+        "x": 1316,
+        "y": 30
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 1790,
+        "y": 205
+      }
+    },
+    {
+      "seconds": 1.56,
+      "position": {
+        "x": 1378,
+        "y": 31
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 1790,
+        "y": 205
+      }
+    },
+    {
+      "seconds": 2.09,
+      "position": {
+        "x": 1440,
+        "y": 33
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 1790,
+        "y": 205
+      }
+    },
+    {
+      "seconds": 2.61,
+      "position": {
+        "x": 1501,
+        "y": 35
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 1790,
+        "y": 205
+      }
+    },
+    {
+      "seconds": 3.16,
+      "position": {
+        "x": 1565,
+        "y": 37
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 1790,
+        "y": 205
+      }
+    },
+    {
+      "seconds": 3.66,
+      "position": {
+        "x": 1627,
+        "y": 39
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 1790,
+        "y": 205
+      }
+    },
+    {
+      "seconds": 4.16,
+      "position": {
+        "x": 1674,
+        "y": 40
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 1790,
+        "y": 205
+      }
+    },
+    {
+      "seconds": 4.69,
+      "position": {
+        "x": 1723,
+        "y": 40
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 2075,
+        "y": 205
+      }
+    },
+    {
+      "seconds": 5.2,
+      "position": {
+        "x": 1781,
+        "y": 40
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 2075,
+        "y": 205
+      }
+    },
+    {
+      "seconds": 5.73,
+      "position": {
+        "x": 1844,
+        "y": 40
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 2075,
+        "y": 205
+      }
+    },
+    {
+      "seconds": 6.25,
+      "position": {
+        "x": 1906,
+        "y": 40
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 2075,
+        "y": 205
+      }
+    },
+    {
+      "seconds": 6.78,
+      "position": {
+        "x": 1956,
+        "y": 40
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 2075,
+        "y": 205
+      }
+    },
+    {
+      "seconds": 7.28,
+      "position": {
+        "x": 1998,
+        "y": 45
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 2661,
+        "y": 321
+      }
+    },
+    {
+      "seconds": 7.8,
+      "position": {
+        "x": 2054,
+        "y": 55
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 2661,
+        "y": 321
+      }
+    },
+    {
+      "seconds": 8.31,
+      "position": {
+        "x": 2114,
+        "y": 67
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 2661,
+        "y": 321
+      }
+    },
+    {
+      "seconds": 8.81,
+      "position": {
+        "x": 2174,
+        "y": 79
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 2661,
+        "y": 321
+      }
+    },
+    {
+      "seconds": 9.33,
+      "position": {
+        "x": 2236,
+        "y": 92
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 2661,
+        "y": 321
+      }
+    },
+    {
+      "seconds": 9.86,
+      "position": {
+        "x": 2297,
+        "y": 104
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 2661,
+        "y": 321
+      }
+    },
+    {
+      "seconds": 10.39,
+      "position": {
+        "x": 2358,
+        "y": 117
+      },
+      "state": "gliding",
+      "destination": {
+        "x": 2661,
+        "y": 321
+      }
+    }
+  ],
+  "entered_second_monitor": true,
+  "reached_second_monitor_interior": true,
+  "session_preserved": true,
+  "session_digest": "ac84dfb37d80f050cda05d04fdde3ef474266acd3c0e8db45c209c12cd9fb2ee"
+}

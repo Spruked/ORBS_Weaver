@@ -1,0 +1,8 @@
+{
+  "activated_at": "2026-10-28T06:35:02.373735+00:00",
+  "document_id": "DESKTOP-ORB-INCULCATION-001",
+  "mechanism": "owner_controlled_offline_deployment",
+  "previous_sha256": "5b8dd300d3bc17b63138ff2c3d06cb81fc50f7faf6747a69c8ed5d8b7ebb6775",
+  "sha256": "2a6642e90053134c6733d408344d228712f82a7b006bfa3e9878d94c14801546",
+  "version": "1.3"
+}

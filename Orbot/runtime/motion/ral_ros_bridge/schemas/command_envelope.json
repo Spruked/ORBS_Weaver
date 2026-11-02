@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RAL_Command_Envelope_v2",
+  "allOf": [
+    {
+      "$ref": "./envelope.json"
+    },
+    {
+      "type": "object",
+      "required": [
+        "proposal_id",
+        "primitive_id",
+        "execution_id",
+        "permit_id",
+        "permit_expires_at",
+        "world_etag"
+      ]
+    }
+  ]
+}

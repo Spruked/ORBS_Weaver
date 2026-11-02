@@ -1,0 +1,29 @@
+{
+  "click": {
+    "motion_enabled": true,
+    "button_accepted_click": true,
+    "voice_state_before": "listening",
+    "voice_state_after": "idle"
+  },
+  "drag": {
+    "motion_enabled": true,
+    "before": {
+      "x": 529,
+      "y": 30
+    },
+    "after": {
+      "x": 589,
+      "y": 60
+    },
+    "delta": {
+      "x": 60,
+      "y": 30
+    },
+    "controller_state": "interaction_hold"
+  },
+  "nudge": {
+    "live_max_contribution_px_per_second": 12.0,
+    "details": "motion_live_nudge_results.json"
+  },
+  "evidence_source": "native application computer-use interaction and native status / runtime diagnostics"
+}
