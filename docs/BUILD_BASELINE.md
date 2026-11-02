@@ -1,5 +1,13 @@
 # ORBS Weaver Build Baseline
 
+## Endpoint reference
+
+See [Endpoint Baseline v1.0](ENDPOINT_BASELINE.md) for the preserved service,
+route, port, and implementation-status snapshot before landing-page work.
+The next increment is landing-page design with full semantic and spatial mapping
+for an autonomous ORB generally 80–200 px in diameter, resizing by position and
+intent. Voice integration follows the landing foundation.
+
 ## Baseline date
 
 November 1, 2026
